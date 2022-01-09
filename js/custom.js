@@ -99,7 +99,7 @@
 
 		$('.home li > img').each(function(){
 			$(this).css('background-image', 'url(' + $(this).attr('src') + ')')
-				   .attr('src', '../images/1x1-blue.png')
+				   .attr('src', 'images/1x1-blue.png')
 				   .height($(window).height());
 		});
 	},0)
@@ -181,13 +181,13 @@
     Scroll Menu BG
 -------------------------------------------------------*/
   
-     $(window).scroll(function () {
+  /*   $(window).scroll(function () {
          if ($("#header").offset().top > 50) {
              $("#header").addClass("menu-bg");
          } else {
              $("#header").removeClass("menu-bg");
          }
-     });
+     });*/
 
 
 /*------------------------------*/
@@ -262,9 +262,14 @@
 /*------------------------------*/
 
 
-   jQuery('.work-grid').mixitup({
+    let mixer = jQuery('.work-grid').mixitup({
 	targetSelector: '.mix',
+	showOnLoad : 'exercise',
+	controls: {
+        toggleDefault: 'exercise'
+    }
 	});
+
 
 
 

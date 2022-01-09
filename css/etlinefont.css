@@ -41,6 +41,7 @@ you can use the generic selector below, but it's slower:
 	-moz-osx-font-smoothing: grayscale;
 	display:inline-block;
 }
+
 .icon-mobile:before {
 	content: "\e000";
 }

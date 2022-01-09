@@ -635,7 +635,26 @@ section {
 	padding:30px;
 }
 
+ .tex sub, .latex sub, .latex sup {
+      text-transform: uppercase;
+    }
 
+ .tex sub, .latex sub {
+      vertical-align: -0.05ex;
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+
+ .tex, .latex, .tex sub, .latex sub {
+      font-size: 1em;
+    }
+
+ .latex sup {
+      font-size: 0.85em;
+      vertical-align: -0.3em;
+      margin-left: 0em;
+      margin-right: 0em;
+    }
 /*-----------------------------------------------------------------*/
 /* Navigation
 /*-----------------------------------------------------------------*/
@@ -655,7 +674,7 @@ section {
 }
 
 .menu-bg {
-	background:#202020;
+	background:#000000;
 }
 
 #main-menu ul {
@@ -753,7 +772,6 @@ section {
     font-weight: 200;
     color: #FFF;
     margin: 30px 0px 0px;
-    text-transform: uppercase;
 	font-weight: 600;
 }
 
@@ -1486,8 +1504,10 @@ ul.timeline {
 }
 
 .work-main {
-	width:100%;
+	width:70%;
 	clear: both;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 60px;
 	display: inline-block;
 }
@@ -1785,11 +1805,29 @@ ul.timeline {
 
 .services-box {
 	text-align: center;
-	margin-bottom: 50px;
-	border: 1px solid #EAE7E7;
+	margin-bottom: 70px;
+	border: 5px solid #EAE7E7;
 	padding: 29px 10px 20px;
 }
 
+.services-box-2 {
+	text-align: center;
+	margin-bottom: 70px;
+	border: 5px solid #EAE7E7;
+	padding: 29px 10px 60px;
+}
+.services-box-3 {
+	text-align: center;
+	margin-bottom: 70px;
+	border: 5px solid #EAE7E7;
+	padding: 29px 10px 35px;
+}
+.services-box-4 {
+	text-align: center;
+	margin-bottom: 70px;
+	border: 5px solid #EAE7E7;
+	padding: 29px 10px 85px;
+}
 .services-box .services-icon {
 	width: 80px;
 	height: 80px;
@@ -1799,6 +1837,41 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0px auto;
+	background: #7EC13F none repeat scroll 0% 0%;
+}
+.services-box-4 .services-icon {
+	width: 80px;
+	height: 80px;
+	color: #FFF;
+	font-size: 38px;
+	line-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	background: #7EC13F none repeat scroll 0% 0%;
+}
+
+.services-box-2 .services-icon {
+	width: 80px;
+	height: 80px;
+	color: #FFF;
+	font-size: 38px;
+	line-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	background: #7EC13F none repeat scroll 0% 0%;
+}
+
+.services-box-3 .services-icon {
+	width: 80px;
+	height: 80px;
+	color: #FFF;
+	font-size: 38px;
+	line-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
 	background: #7EC13F none repeat scroll 0% 0%;
 }
 
